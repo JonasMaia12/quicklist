@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quick List</title>
 
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
@@ -18,6 +18,26 @@
     <header>
       <img src="./assets/logo.svg" alt="Logo da Quick List" />
     </header>
+
+    <main>
+      <h1>Compras da semana</h1>
+
+      <form>
+        <input
+          type="text"
+          name="item"
+          id="item"
+          placeholder="Adicione um novo item"
+          required
+        />
+        <button id="button">Adicionar item</button>
+      </form>
+    </main>
+
+    <footer>
+      <ul id="list"></ul>
+      <div id="deletedListItem"></div>
+    </footer>
 
     <script src="./script.js"></script>
   </body>
